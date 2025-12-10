@@ -32,7 +32,7 @@ except:
 print("\nFetching data from KC Socrata API...")
 client = Socrata("data.kcmo.org", None)
 # We pull 100k to ensure we get your old history + new data
-results = client.get("d4px-6rwg", limit=100000, order='last_updated DESC')
+results = client.get("d4px-6rwg", limit=20000, order='last_updated DESC')
 df = pd.DataFrame.from_records(results)
 print(f"Fetched {len(df)} rows.")
 
