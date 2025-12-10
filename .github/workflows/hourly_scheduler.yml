@@ -1,0 +1,30 @@
+name: Hourly BigQuery Update
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour at minute 0
+  workflow_dispatch: # Allows manual button click
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Libraries
+        run: pip install pandas google-auth pandas-gbq sodapy
+
+      - name: Create Key File
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        run: echo "$GCP_SA_KEY" > gbq_key.json
+
+      - name: Run Script
+        run: python pipeline.py
