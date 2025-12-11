@@ -2,7 +2,17 @@ name: Hourly BigQuery Update
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour at minute 0
+    # --- CHOOSE YOUR FREQUENCY BELOW ---
+    
+    # 1. WEEKLY (Active): Runs every Tuesday at midnight UTC
+    - cron: '0 0 * * 2'
+
+    # 2. HOURLY (Commented out): Runs at minute 0 of every hour
+    # - cron: '0 * * * *'
+
+    # 3. MONTHLY (Commented out): Runs at midnight on the 1st of every month
+    # - cron: '0 0 1 * *'
+
   workflow_dispatch: # Allows manual button click
 
 jobs:
