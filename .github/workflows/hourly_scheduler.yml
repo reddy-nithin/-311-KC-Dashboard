@@ -37,4 +37,4 @@ jobs:
         run: echo "$GCP_SA_KEY" > gbq_key.json
 
       - name: Run Script
-        run: python pipeline.py
+        run: python src/pipeline.py
