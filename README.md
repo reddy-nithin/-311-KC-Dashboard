@@ -68,7 +68,7 @@ This project implements an end-to-end data engineering pipeline that extracts, t
 
 ![Dashboard Preview](docs/dashboard_preview.png)
 
-**🔗 [View Live Dashboard on Tableau Public]([https://public.tableau.com/views/YOUR_DASHBOARD_LINK](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview))**
+**🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview)**
 
 
 ---
