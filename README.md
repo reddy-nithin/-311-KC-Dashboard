@@ -5,7 +5,7 @@
 [![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF.svg)](https://github.com/features/actions)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-E97627.svg)](https://public.tableau.com/)
 
-> **Academic Project** | Big Data Management Course  
+> **Academic Project** | Principles of Big Data Management Course  
 > An automated data pipeline for analyzing Kansas City 311 service requests
 
 ---
@@ -25,23 +25,23 @@ This project implements an end-to-end data engineering pipeline that extracts, t
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        KC 311 DATA PIPELINE ARCHITECTURE                     │
+│                        KC 311 DATA PIPELINE ARCHITECTURE                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
+│                                                                             │
 │   ┌──────────────┐      ┌──────────────┐      ┌──────────────┐              │
 │   │   KC Open    │      │   Python/    │      │   Google     │              │
 │   │   Data API   │ ───▶ │   Pandas     │ ───▶ │   BigQuery   │              │
 │   │   (Socrata)  │      │   ETL        │      │   (DWH)      │              │
 │   └──────────────┘      └──────────────┘      └──────────────┘              │
-│                               │                      │                       │
-│                               │                      │                       │
-│                               ▼                      ▼                       │
+│                               │                      │                      │
+│                               │                      │                      │
+│                               ▼                      ▼                      │
 │                        ┌──────────────┐      ┌──────────────┐               │
 │                        │   GitHub     │      │   Tableau    │               │
 │                        │   Actions    │      │   Public     │               │
 │                        │   (Scheduler)│      │   (Viz)      │               │
 │                        └──────────────┘      └──────────────┘               │
-│                                                                              │
+│                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -68,9 +68,8 @@ This project implements an end-to-end data engineering pipeline that extracts, t
 
 ![Dashboard Preview](docs/dashboard_preview.png)
 
-**🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/YOUR_DASHBOARD_LINK)**
+**🔗 [View Live Dashboard on Tableau Public]([https://public.tableau.com/views/YOUR_DASHBOARD_LINK](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview))**
 
-*Replace the link above with your actual Tableau Public URL*
 
 ---
 
@@ -189,7 +188,7 @@ The pipeline runs automatically via GitHub Actions. To configure:
 
 **Nithin Reddy**  
 Graduate Student | Data Engineering  
-*Big Data Management Course Project*
+*Principles of Big Data Management Course Project*
 
 ---
 
