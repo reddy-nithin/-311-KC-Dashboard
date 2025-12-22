@@ -8,6 +8,8 @@
 > **Academic Project** | Principles of Big Data Management Course  
 > An automated data pipeline for analyzing Kansas City 311 service requests
 
+### 🚀 [**View Live Dashboard →**](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview) &nbsp;|&nbsp; 📖 [Dashboard Guide](docs/DASHBOARD_GUIDE.md)
+
 ---
 
 ## 📋 Overview
