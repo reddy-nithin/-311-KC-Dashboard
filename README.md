@@ -45,7 +45,7 @@ This project implements an end-to-end data engineering pipeline that extracts, t
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-> 📸 **Architecture Diagram**: Place a visual diagram screenshot in `docs/architecture.png`
+![Architecture Diagram](docs/architecture.png)
 
 ---
 
@@ -63,10 +63,13 @@ This project implements an end-to-end data engineering pipeline that extracts, t
 
 ## 📊 Dashboard
 
-<!-- TODO: Add your Tableau dashboard screenshot -->
-> 📸 **Dashboard Preview**: Place your dashboard screenshot in `docs/dashboard_preview.png`
+The interactive Tableau dashboard provides two views:
 
-![Dashboard Preview](docs/dashboard_preview.png)
+### Overview Page
+![Dashboard Overview](docs/dashboard_overview.png)
+
+### Analysis Page  
+![Dashboard Analysis](docs/dashboard_analysis.png)
 
 **🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview)**
 
