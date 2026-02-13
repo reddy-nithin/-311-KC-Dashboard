@@ -220,5 +220,4 @@ This dashboard enables data-driven decisions such as:
 This dashboard is part of the **Kansas City 311 Insight Engine** — a data engineering project that automates data ingestion from Kansas City's Open Data Portal into Google BigQuery for analysis.
 
 **Author:** Nithin Reddy  
-**Course:** Principles of Big Data Management  
 **Repository:** [GitHub](https://github.com/reddy-nithin/-311-KC-Dashboard)
