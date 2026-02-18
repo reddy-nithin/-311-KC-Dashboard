@@ -6,6 +6,7 @@
 [![Tableau](https://img.shields.io/badge/Tableau-Public-E97627.svg)](https://public.tableau.com/)
 
 > An automated data pipeline for analyzing Kansas City 311 service requests
+> *Principles of Big Data Management Course Project*
 
 ### 🚀 [**View Live Dashboard →**](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview) &nbsp;|&nbsp; 📖 [Dashboard Guide](docs/DASHBOARD_GUIDE.md)
 
@@ -197,4 +198,4 @@ Graduate Student | Data Engineering
 
 ## 📄 License
 
-This project is for educational purposes.
+This project is for educational purposes as part of academic coursework.
