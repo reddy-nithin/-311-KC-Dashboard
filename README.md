@@ -6,7 +6,6 @@
 [![Tableau](https://img.shields.io/badge/Tableau-Public-E97627.svg)](https://public.tableau.com/)
 
 > An automated data pipeline for analyzing Kansas City 311 service requests
-> *Principles of Big Data Management Course Project*
 
 ### 🚀 [**View Live Dashboard →**](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview) &nbsp;|&nbsp; 📖 [Dashboard Guide](docs/DASHBOARD_GUIDE.md)
 
@@ -192,8 +191,8 @@ The pipeline runs automatically via GitHub Actions. To configure:
 ## 👨‍💻 Author
 
 **Nithin Reddy**  
-Graduate Student | Data Engineering  
-
+Graduate Student | Data Engineering
+*Principles of Big Data Management Course Project*
 ---
 
 ## 📄 License
