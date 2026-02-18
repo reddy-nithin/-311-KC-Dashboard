@@ -5,7 +5,6 @@
 [![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF.svg)](https://github.com/features/actions)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-E97627.svg)](https://public.tableau.com/)
 
-> **Academic Project** | Principles of Big Data Management Course  
 > An automated data pipeline for analyzing Kansas City 311 service requests
 
 ### 🚀 [**View Live Dashboard →**](https://public.tableau.com/app/profile/nithin.reddy7249/viz/311Dashboard_17628123247790/311Overview) &nbsp;|&nbsp; 📖 [Dashboard Guide](docs/DASHBOARD_GUIDE.md)
