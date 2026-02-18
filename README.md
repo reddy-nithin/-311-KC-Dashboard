@@ -192,10 +192,9 @@ The pipeline runs automatically via GitHub Actions. To configure:
 
 **Nithin Reddy**  
 Graduate Student | Data Engineering  
-*Principles of Big Data Management Course Project*
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes as part of academic coursework.
+This project is for educational purposes.
